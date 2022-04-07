@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Exercises/01_HelloWorld.fs" />
+    <Compile Include="Exercises/02_LuciansLusciousLasagna.fs" />
+    <Compile Include="Exercises/03_AnnalynsInfiltration.fs" />
+    <Compile Include="Exercises/04_ValentinesDay.fs" />
+  </ItemGroup>
+</Project>

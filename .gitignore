@@ -1,0 +1,10 @@
+bin/
+obj/
+
+#paket
+.paket/
+paket-files/
+packages/
+
+#ionide
+.ionide/
