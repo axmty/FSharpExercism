@@ -14,6 +14,8 @@
     <Compile Include="Exercises/InterestIsInteresting.fs" />
     <Compile Include="Exercises/LogLevels.fs" />
     <Compile Include="Exercises/LuciansLusciousLasagna.fs" />
+    <Compile Include="Exercises/PizzaPricing.fs" />
+    <Compile Include="Exercises/TisburyTreasureHunt.fs" />
     <Compile Include="Exercises/TracksOnTracksOnTracks.fs" />
     <Compile Include="Exercises/ValentinesDay.fs" />
   </ItemGroup>
