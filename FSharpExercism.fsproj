@@ -8,5 +8,8 @@
     <Compile Include="Exercises/02_LuciansLusciousLasagna.fs" />
     <Compile Include="Exercises/03_AnnalynsInfiltration.fs" />
     <Compile Include="Exercises/04_ValentinesDay.fs" />
+    <Compile Include="Exercises/05_CarsAssemble.fs" />
+    <Compile Include="Exercises/06_InterestIsInteresting.fs" />
+    <Compile Include="Exercises/07_LogLevels.fs" />
   </ItemGroup>
 </Project>
