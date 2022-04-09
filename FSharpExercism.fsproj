@@ -4,12 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Exercises/01_HelloWorld.fs" />
-    <Compile Include="Exercises/02_LuciansLusciousLasagna.fs" />
-    <Compile Include="Exercises/03_AnnalynsInfiltration.fs" />
-    <Compile Include="Exercises/04_ValentinesDay.fs" />
-    <Compile Include="Exercises/05_CarsAssemble.fs" />
-    <Compile Include="Exercises/06_InterestIsInteresting.fs" />
-    <Compile Include="Exercises/07_LogLevels.fs" />
+    <Compile Include="Exercises/AnnalynsInfiltration.fs" />
+    <Compile Include="Exercises/BirdWatcher.fs" />
+    <Compile Include="Exercises/BookingUpForBeauty.fs" />
+    <Compile Include="Exercises/CarsAssemble.fs" />
+    <Compile Include="Exercises/GuessingGame.fs" />
+    <Compile Include="Exercises/HelloWorld.fs" />
+    <Compile Include="Exercises/InterestIsInteresting.fs" />
+    <Compile Include="Exercises/LogLevels.fs" />
+    <Compile Include="Exercises/LuciansLusciousLasagna.fs" />
+    <Compile Include="Exercises/ValentinesDay.fs" />
   </ItemGroup>
 </Project>
