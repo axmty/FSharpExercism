@@ -17,6 +17,7 @@
     <Compile Include="Exercises/GuessingGame.fs" />
     <Compile Include="Exercises/HelloWorld.fs" />
     <Compile Include="Exercises/InterestIsInteresting.fs" />
+    <Compile Include="Exercises/KindergartenGarden.fs" />
     <Compile Include="Exercises/Leap.fs" />
     <Compile Include="Exercises/LogLevels.fs" />
     <Compile Include="Exercises/LuciansLusciousLasagna.fs" />
