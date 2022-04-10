@@ -4,11 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Exercises/Accumulate.fs" />
     <Compile Include="Exercises/AnnalynsInfiltration.fs" />
     <Compile Include="Exercises/Bandwagoner.fs" />
     <Compile Include="Exercises/BirdWatcher.fs" />
     <Compile Include="Exercises/BookingUpForBeauty.fs" />
     <Compile Include="Exercises/CarsAssemble.fs" />
+    <Compile Include="Exercises/GradeSchool.fs" />
     <Compile Include="Exercises/GuessingGame.fs" />
     <Compile Include="Exercises/HelloWorld.fs" />
     <Compile Include="Exercises/InterestIsInteresting.fs" />
@@ -17,6 +19,8 @@
     <Compile Include="Exercises/LuciansLusciousLasagna.fs" />
     <Compile Include="Exercises/QueenAttack.fs" />
     <Compile Include="Exercises/PizzaPricing.fs" />
+    <Compile Include="Exercises/SpaceAge.fs" />
+    <Compile Include="Exercises/Raindrops.fs" />
     <Compile Include="Exercises/TisburyTreasureHunt.fs" />
     <Compile Include="Exercises/TracksOnTracksOnTracks.fs" />
     <Compile Include="Exercises/TwoFer.fs" />
