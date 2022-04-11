@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Exercises/Accumulate.fs" />
+    <Compile Include="Exercises/Allergies.fs" />
     <Compile Include="Exercises/AnnalynsInfiltration.fs" />
     <Compile Include="Exercises/Bandwagoner.fs" />
     <Compile Include="Exercises/BeerSong.fs" />
@@ -25,6 +26,7 @@
     <Compile Include="Exercises/PizzaPricing.fs" />
     <Compile Include="Exercises/SpaceAge.fs" />
     <Compile Include="Exercises/Raindrops.fs" />
+    <Compile Include="Exercises/RobotSimulator.fs" />
     <Compile Include="Exercises/TisburyTreasureHunt.fs" />
     <Compile Include="Exercises/TracksOnTracksOnTracks.fs" />
     <Compile Include="Exercises/TwoFer.fs" />
