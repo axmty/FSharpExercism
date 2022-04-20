@@ -1,10 +1,10 @@
 module LogLevels
 
 let message (logLine: string) : string =
-  logLine[ logLine.IndexOf ":" + 1 .. ].Trim()
+    logLine[ logLine.IndexOf ":" + 1 .. ].Trim()
 
 let logLevel (logLine: string) : string =
-  logLine[ 1 .. logLine.IndexOf "]" - 1 ].ToLower()
+    logLine[ 1 .. logLine.IndexOf "]" - 1 ].ToLower()
 
 let reformat (logLine: string) : string =
-  sprintf "%s (%s)" (message logLine) (logLevel logLine)
+    sprintf "%s (%s)" (message logLine) (logLevel logLine)

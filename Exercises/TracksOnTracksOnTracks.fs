@@ -11,8 +11,8 @@ let countLanguages (languages: string list) : int = languages.Length
 let reverseList (languages: string list) : string list = List.rev languages
 
 let excitingList (languages: string list) : bool =
-  match languages with
-  | "F#" :: _
-  | [ _; "F#" ]
-  | [ _; "F#"; _ ] -> true
-  | _ -> false
+    match languages with
+    | "F#" :: _
+    | [ _; "F#" ]
+    | [ _; "F#"; _ ] -> true
+    | _ -> false

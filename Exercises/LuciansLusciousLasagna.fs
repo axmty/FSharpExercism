@@ -7,4 +7,4 @@ let remainingMinutesInOven minutes = expectedMinutesInOven - minutes
 let preparationTimeInMinutes layers = layers * 2
 
 let elapsedTimeInMinutes layers minutes =
-  preparationTimeInMinutes layers + minutes
+    preparationTimeInMinutes layers + minutes
