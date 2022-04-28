@@ -2,24 +2,19 @@ module PigLatin
 
 open System.Text.RegularExpressions
 
-let matchRegex regex groupLengthMap str =
-    let matchResult = Regex(regex).Match(str)
+let (|Pattern|_|) (regex: string) (input: string) =
+    let regexMatch = Regex(regex).Match(input)
 
-    if matchResult.Success then
-        Some(groupLengthMap matchResult.Groups.[1].Length)
+    if regexMatch.Success then
+        Some(regexMatch.Groups[0].Length)
     else
         None
 
-let getMovingIndex str =
-    [ (id, "^(?:[AEIOUYaeiouy]|YT|yt|XR|xr)")
-      (((-) 1), "^(?:[a-zA-Z](?:y|Y))")
-      (id, "^[^AEIOUYaeiouy]+")
-      (id, "([^AEIOUYaeiouy]*(qu|QU))") ]
-    |> Seq.map (fun (map, regex) -> matchRegex regex map str)
-    |> Seq.tryFind Option.isSome
-    |> Option.flatten
+let translateWord word =
+    match word with
+    | Pattern @"^([yY][tT]|[xX][rR])" _ -> word + "ay"
+    | Pattern @"^([^AEIOUaeiou]*[qQ][uU]|[^AEIOUYaeiouy]+|[yY])" len -> word[len..] + word[.. len - 1] + "ay"
+    | word -> word + "ay"
 
 let translate input =
-    match getMovingIndex input with
-    | Some index -> input[index..] + input[.. index - 1] + "ay"
-    | None -> input
+    Regex.Replace(input, @"\w+", MatchEvaluator(fun m -> translateWord m.Value))
