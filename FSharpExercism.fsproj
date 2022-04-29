@@ -24,6 +24,7 @@
     <Compile Include="Exercises/LogLevels.fs" />
     <Compile Include="Exercises/LuciansLusciousLasagna.fs" />
     <Compile Include="Exercises/OcrNumbers.fs" />
+    <Compile Include="Exercises/Pangram.fs" />
     <Compile Include="Exercises/PigLatin.fs" />
     <Compile Include="Exercises/PizzaPricing.fs" />
     <Compile Include="Exercises/QueenAttack.fs" />
